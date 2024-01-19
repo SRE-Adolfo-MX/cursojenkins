@@ -5,7 +5,7 @@ node {
     
     stage 'Complicacion/Build'
         git branch: 'main', 
-            credentialsId: 'github-adolfo',
+            credentialsId: 'github',
             url: 'https://github.com/SRE-Adolfo-MX/gs-gradle.git'
 
     stage 'Configuracion Artifactory'
